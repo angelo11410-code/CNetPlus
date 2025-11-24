@@ -607,7 +607,7 @@ conf t
   max-dn 12
   max-pool 12
   authenticate register
-  create profile sync
+  create profile
  voice register dn 1
    number 2199
    allow watch
@@ -643,6 +643,7 @@ exit
           
 sip-ua
 sip-server ipv4:192.168.k.1
+
 
 
 
